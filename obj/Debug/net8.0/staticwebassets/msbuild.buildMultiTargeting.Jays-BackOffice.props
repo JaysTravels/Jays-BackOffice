@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Jays-BackOffice.props" />
+</Project>

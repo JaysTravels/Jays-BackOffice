@@ -1,0 +1,201 @@
+﻿@model IEnumerable<Jays_BackOffice.DB_Models.Deeplink>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Deep Link</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CountryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CityName1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price1)
+            </th>
+            <th>
+                @Html.DisplayName("Deep Link Details1")
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CityName2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price2)
+            </th>
+            <th>
+                @Html.DisplayName("Deep Link Details2")
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CityName3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price3)
+            </th>
+            <th>
+                @Html.DisplayName("Deep Link Details3")
+            </th>          
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+           
+           
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.DeeplinkId">Edit</a> |                    
+                    <a asp-action="Delete" asp-route-id="@item.DeeplinkId">Delete</a>
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CountryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CityName1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price1)
+            </td>
+            <td>
+               <table>
+                        <tr>
+                            <td>
+                              Adults @item.Adults
+                            </td>
+                            <td>
+                                Children @(item.Children > 0 ? item.Children : 0)
+                            </td>
+                            <td>
+                                Infant @(item.Infant > 0 ? item.Infant : 0)
+                            </td>
+                            <td>
+                                DepartureDate @(item.DepartureDate != "" ? item.DepartureDate : "-")
+                            </td>
+                            <td>
+                                
+                                ReturnDate @(item.ReturnDate != "" ? item.ReturnDate : "-")
+                            </td>
+                            <td>
+                                ReturnDate @(item.Origin != "" ? item.Origin : "-")
+                            </td>
+                            <td>
+                                Destination @(item.Destination != "" ? item.Destination : "-")
+                               
+                            </td>
+                            <td>
+                                CabinClass @(item.CabinClass != "" ? item.CabinClass : "-") 
+                            </td>
+                            <td>
+                                FlightType @(item.FlightType != "" ? item.FlightType : "-")
+                            </td>
+                        </tr>
+               </table>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CityName2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price2)
+            </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                Adults @item.Adults2
+                            </td>
+                            <td>
+                                Children @(item.Children2 > 0 ? item.Children2 : 0)
+                            </td>
+                            <td>
+                                Infant @(item.Infant2 > 0 ? item.Infant2 : 0)
+                            </td>
+                            <td>
+                                DepartureDate @(item.DepartureDate2 != "" ? item.DepartureDate2 : "-")
+                            </td>
+                            <td>
+
+                                ReturnDate @(item.ReturnDate2 != "" ? item.ReturnDate2 : "-")
+                            </td>
+                            <td>
+                                ReturnDate @(item.Origin2 != "" ? item.Origin2 : "-")
+                            </td>
+                            <td>
+                                Destination @(item.Destination2 != "" ? item.Destination2 : "-")
+
+                            </td>
+                            <td>
+                                CabinClass @(item.CabinClass2 != "" ? item.CabinClass2 : "-")
+                            </td>
+                            <td>
+                                FlightType @(item.FlightType2 != "" ? item.FlightType2 : "-")
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CityName3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price3)
+            </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                Adults @item.Adults3
+                            </td>
+                            <td>
+                                Children @(item.Children3 > 0 ? item.Children3 : 0)
+                            </td>
+                            <td>
+                                Infant @(item.Infant3 > 0 ? item.Infant3 : 0)
+                            </td>
+                            <td>
+                                DepartureDate @(item.DepartureDate3 != "" ? item.DepartureDate3 : "-")
+                            </td>
+                            <td>
+
+                                ReturnDate @(item.ReturnDate3 != "" ? item.ReturnDate3 : "-")
+                            </td>
+                            <td>
+                                ReturnDate @(item.Origin3 != "" ? item.Origin3 : "-")
+                            </td>
+                            <td>
+                                Destination @(item.Destination3 != "" ? item.Destination3 : "-")
+
+                            </td>
+                            <td>
+                                CabinClass @(item.CabinClass3 != "" ? item.CabinClass3 : "-")
+                            </td>
+                            <td>
+                                FlightType @(item.FlightType3 != "" ? item.FlightType3 : "-")
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+           
+           
+        </tr>
+}
+    </tbody>
+</table>

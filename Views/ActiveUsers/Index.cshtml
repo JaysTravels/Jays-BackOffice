@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Jays_BackOffice.DB_Models.ActiveUser>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Active Sessions</h1>
+
+<p>
+  
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayName("Total Active Sessions")
+            </th>
+           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+               @Model.Count()
+           </td>
+        </tr>
+
+    </tbody>
+</table>
+<script>
+    setTimeout(function () {
+        location.reload();
+    }, 15000); // Refresh every 30 seconds
+</script>

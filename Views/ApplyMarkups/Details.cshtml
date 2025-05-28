@@ -1,0 +1,108 @@
+﻿@model Jays_BackOffice.Models.MarkupViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ApplyMarkup</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markup.AdultMarkup)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markup.AdultMarkup)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markup.ChildMarkup)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markup.ChildMarkup)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markup.InfantMarkup)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markup.InfantMarkup)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markup.IsPercentage)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markup.IsPercentage)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markup.Airline)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markup.Airline)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markup.BetweenHoursFrom)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markup.BetweenHoursFrom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markup.BetweenHoursTo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markup.BetweenHoursTo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markup.StartAirport)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markup.StartAirport)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markup.EndAirport)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markup.EndAirport)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markup.FromDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markup.FromDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markup.ToDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markup.ToDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Markup.IsActive)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Markup.IsActive)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayName("GDS")
+        </dt>
+        <dt class = "col-sm-2">
+            <div class="form-group">
+                @foreach (var gds in Model.SelectedGDS)
+                {
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" asp-for="@gds.IsSelected" />
+                        <input type="hidden" asp-for="@gds.GdsId" />
+                        <label class="form-check-label">@gds.GdsName</label>
+                    </div>
+                }
+            </div>
+        </dt>
+        <dd class = "col-sm-10">
+           
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Markup.MarkupId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

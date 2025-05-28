@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jays-BackOffice", "Jays-BackOffice.csproj", "{B867E262-7913-4655-AAD3-00255F69802B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B867E262-7913-4655-AAD3-00255F69802B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B867E262-7913-4655-AAD3-00255F69802B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B867E262-7913-4655-AAD3-00255F69802B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B867E262-7913-4655-AAD3-00255F69802B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF5CF0CE-2554-4B24-89A4-2AC17DD186B4}
+	EndGlobalSection
+EndGlobal

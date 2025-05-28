@@ -1,0 +1,183 @@
+﻿@model IEnumerable<Jays_BackOffice.Models.MarkupViewModel>
+
+@{
+    ViewData["Title"] = "Markup";
+}
+
+<h1>Markup</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>
+                @Html.DisplayName("Adult")
+            </th>
+            <th>
+                @Html.DisplayName("Child")
+            </th>
+            <th>
+                @Html.DisplayName("Infant")
+            </th>
+            <th>
+                @Html.DisplayName("Is Percentage")
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Markup.Airline)
+            </th>
+            <th>
+                @Html.DisplayName("Fare Type")
+            </th>
+            <th>
+                @Html.DisplayName("GDS")
+            </th>
+            <th>
+                @Html.DisplayName("Source")
+            </th>
+            <th>
+                @Html.DisplayName("Days")
+            </th>
+            <th>
+                @Html.DisplayName("Journy Type")
+            </th>
+            <th>
+                @Html.DisplayName("B/W Hours From")
+            </th>
+            <th>
+                @Html.DisplayName("B/W Hours To")
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Markup.StartAirport)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Markup.EndAirport)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Markup.FromDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Markup.ToDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Markup.IsActive)
+            </th>
+            
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach( var item in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Markup.MarkupId">Edit</a> |                  
+                    <a asp-action="Delete" asp-route-id="@item.Markup.MarkupId">Delete</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @item.Markup.AdultMarkup)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @item.Markup.ChildMarkup)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @item.Markup.InfantMarkup)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @item.Markup.IsPercentage)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @item.Markup.Airline)
+                </td>
+                <td>
+                    <div class="form-group">
+                        @foreach (var gds in item.SelectedFareType)
+                        {
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" asp-for="@gds.IsSelected" />
+                                <input type="hidden" asp-for="@gds.FareTypeId" />
+                                <label class="form-check-label">@gds.FareTypeName</label>
+                            </div>
+                        }
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        @foreach (var gds in item.SelectedGDS)
+                        {
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" asp-for="@gds.IsSelected" />
+                                <input type="hidden" asp-for="@gds.GdsId" />
+                                <label class="form-check-label">@gds.GdsName</label>
+                            </div>
+                        }
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        @foreach (var gds in item.SelectedSource)
+                        {
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" asp-for="@gds.IsSelected" />
+                                <input type="hidden" asp-for="@gds.SourceId " />
+                                <label class="form-check-label">@gds.SourceName</label>
+                            </div>
+                        }
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        @foreach (var gds in item.SelectedDayName)
+                        {
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" asp-for="@gds.IsSelected" />
+                                <input type="hidden" asp-for="@gds.DayNameId" />
+                                <label class="form-check-label">@gds.DayName</label>
+                            </div>
+                        }
+                    </div>
+                </td>
+
+                <td>
+                    <div class="form-group">
+                        @foreach (var gds in item.SelectedJournyType)
+                        {
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" asp-for="@gds.IsSelected" />
+                                <input type="hidden" asp-for="@gds.JourneyTypeId" />
+                                <label class="form-check-label">@gds.JourneyType</label>
+                            </div>
+                        }
+                    </div>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @item.Markup.BetweenHoursFrom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @item.Markup.BetweenHoursTo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @item.Markup.StartAirport)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @item.Markup.EndAirport)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @item.Markup.FromDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @item.Markup.ToDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @item.Markup.IsActive)
+                </td>
+                
+               
+            </tr>
+
+        }
+       
+    </tbody>
+</table>

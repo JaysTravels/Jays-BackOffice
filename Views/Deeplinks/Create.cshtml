@@ -1,0 +1,227 @@
+﻿@model Jays_BackOffice.DB_Models.Deeplink
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Deeplink</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ImageUrl" class="control-label"></label>
+                <input asp-for="ImageUrl" class="form-control" />
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CountryName" class="control-label"></label>
+                <input asp-for="CountryName" class="form-control" />
+                <span asp-validation-for="CountryName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CityName1" class="control-label"></label>
+                <input asp-for="CityName1" class="form-control" />
+                <span asp-validation-for="CityName1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price1" class="control-label"></label>
+                <input asp-for="Price1" class="form-control" />
+                <span asp-validation-for="Price1" class="text-danger"></span>
+            </div>
+            <div>
+                <h3>DeepLink 1</h3>
+            </div>
+            <div>
+                <table class="table">
+                    <tr>
+                        <td><label asp-for="Adults" class="control-label"></label></td>
+                        <td><input asp-for="Adults" class="form-control" /></td>
+                        <td><span asp-validation-for="Adults" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Children" class="control-label"></label></td>
+                        <td><input asp-for="Children" class="form-control" /></td>
+                        <td><span asp-validation-for="Children" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Infant" class="control-label"></label></td>
+                        <td><input asp-for="Infant" class="form-control" /></td>
+                        <td><span asp-validation-for="Infant" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="control-label">Departure Date (YYYY-MM-DD)</label> 
+                         </td>                         
+                        <td><input asp-for="DepartureDate" class="form-control" /></td>
+                        <td><span asp-validation-for="DepartureDate" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label class="control-label">Return Date (YYYY-MM-DD)</label></td>
+                        <td><input asp-for="ReturnDate" class="form-control" /></td>
+                        <td><span asp-validation-for="ReturnDate" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Origin" class="control-label"></label></td>
+                        <td><input asp-for="Origin" class="form-control" /></td>
+                        <td><span asp-validation-for="Origin" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Destination" class="control-label"></label></td>
+                        <td><input asp-for="Destination" class="form-control" /></td>
+                        <td><span asp-validation-for="Destination" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label class="control-label">Cabin Class (economy)</label></td>
+                        <td><input asp-for="CabinClass" class="form-control" /></td>
+                        <td><span asp-validation-for="CabinClass" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label class="control-label">Flight Type (N for direct)</label></td>
+                        <td><input asp-for="FlightType" class="form-control" /></td>
+                        <td><span asp-validation-for="FlightType" class="text-danger"></span></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="form-group">
+                <label asp-for="CityName2" class="control-label"></label>
+                <input asp-for="CityName2" class="form-control" />
+                <span asp-validation-for="CityName2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price2" class="control-label"></label>
+                <input asp-for="Price2" class="form-control" />
+                <span asp-validation-for="Price2" class="text-danger"></span>
+            </div>
+            <div>
+                <h3>DeepLink 2</h3>
+            </div>
+            <div>
+                <table class="table">
+                    <tr>
+                        <td><label asp-for="Adults" class="control-label"></label></td>
+                        <td><input asp-for="Adults2" class="form-control" /></td>
+                        <td><span asp-validation-for="Adults2" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Children" class="control-label"></label></td>
+                        <td><input asp-for="Children2" class="form-control" /></td>
+                        <td><span asp-validation-for="Children2" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Infant" class="control-label"></label></td>
+                        <td><input asp-for="Infant2" class="form-control" /></td>
+                        <td><span asp-validation-for="Infant2" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td> <label class="control-label">Departure Date (YYYY-MM-DD)</label></td>
+                        <td><input asp-for="DepartureDate2" class="form-control" /></td>
+                        <td><span asp-validation-for="DepartureDate2" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td> <label class="control-label">Return Date (YYYY-MM-DD)</label> </td>
+                        <td><input asp-for="ReturnDate2" class="form-control" /></td>
+                        <td><span asp-validation-for="ReturnDate2" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Origin" class="control-label"></label></td>
+                        <td><input asp-for="Origin2" class="form-control" /></td>
+                        <td><span asp-validation-for="Origin2" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Destination" class="control-label"></label></td>
+                        <td><input asp-for="Destination2" class="form-control" /></td>
+                        <td><span asp-validation-for="Destination2" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="CabinClass" class="control-label"></label></td>
+                        <td><input asp-for="CabinClass2" class="form-control" /></td>
+                        <td><span asp-validation-for="CabinClass2" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="FlightType" class="control-label"></label></td>
+                        <td><input asp-for="FlightType2" class="form-control" /></td>
+                        <td><span asp-validation-for="FlightType2" class="text-danger"></span></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="form-group">
+                <label asp-for="CityName3" class="control-label"></label>
+                <input asp-for="CityName3" class="form-control" />
+                <span asp-validation-for="CityName3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price3" class="control-label"></label>
+                <input asp-for="Price3" class="form-control" />
+                <span asp-validation-for="Price3" class="text-danger"></span>
+            </div>
+            <div>
+                <h3>DeepLink3</h3>
+            </div>
+            <div>
+                <table class="table">
+                    <tr>
+                        <td><label asp-for="Adults3" class="control-label"></label></td>
+                        <td><input asp-for="Adults3" class="form-control" /></td>
+                        <td><span asp-validation-for="Adults3" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Children3" class="control-label"></label></td>
+                        <td><input asp-for="Children3" class="form-control" /></td>
+                        <td><span asp-validation-for="Children3" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Infant3" class="control-label"></label></td>
+                        <td><input asp-for="Infant3" class="form-control" /></td>
+                        <td><span asp-validation-for="Infant3" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td> <label class="control-label">Departure Date (YYYY-MM-DD)</label> </td>
+                        <td><input asp-for="DepartureDate3" class="form-control" /></td>
+                        <td><span asp-validation-for="DepartureDate3" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td> <label class="control-label">Return Date (YYYY-MM-DD)</label> </td>
+                        <td><input asp-for="ReturnDate3" class="form-control" /></td>
+                        <td><span asp-validation-for="ReturnDate3" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Origin3" class="control-label"></label></td>
+                        <td><input asp-for="Origin3" class="form-control" /></td>
+                        <td><span asp-validation-for="Origin3" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Destination3" class="control-label"></label></td>
+                        <td><input asp-for="Destination3" class="form-control" /></td>
+                        <td><span asp-validation-for="Destination3" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="CabinClass3" class="control-label"></label></td>
+                        <td><input asp-for="CabinClass3" class="form-control" /></td>
+                        <td><span asp-validation-for="CabinClass3" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="FlightType3" class="control-label"></label></td>
+                        <td><input asp-for="FlightType3" class="form-control" /></td>
+                        <td><span asp-validation-for="FlightType3" class="text-danger"></span></td>
+                        
+                    </tr>
+                </table>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
