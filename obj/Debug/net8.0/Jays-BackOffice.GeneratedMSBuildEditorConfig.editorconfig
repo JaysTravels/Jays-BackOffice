@@ -17,139 +17,141 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Jays_BackOffice
 build_property.RootNamespace = Jays_BackOffice
-build_property.ProjectDir = C:\Users\zainm\OneDrive\Desktop\Jays-BackOffice\Jays-BackOffice\
+build_property.ProjectDir = E:\Work\Jays-BackOffice\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\zainm\OneDrive\Desktop\Jays-BackOffice\Jays-BackOffice
+build_property.MSBuildProjectDirectory = E:\Work\Jays-BackOffice
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ActiveUsers/Create.cshtml]
+[E:/Work/Jays-BackOffice/Views/ActiveUsers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZlVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ActiveUsers/Delete.cshtml]
+[E:/Work/Jays-BackOffice/Views/ActiveUsers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZlVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ActiveUsers/Details.cshtml]
+[E:/Work/Jays-BackOffice/Views/ActiveUsers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZlVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ActiveUsers/Edit.cshtml]
+[E:/Work/Jays-BackOffice/Views/ActiveUsers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZlVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ActiveUsers/Index.cshtml]
+[E:/Work/Jays-BackOffice/Views/ActiveUsers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZlVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ApplyMarkups/Create.cshtml]
+[E:/Work/Jays-BackOffice/Views/ApplyMarkups/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbHlNYXJrdXBzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ApplyMarkups/Delete.cshtml]
+[E:/Work/Jays-BackOffice/Views/ApplyMarkups/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbHlNYXJrdXBzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ApplyMarkups/Details.cshtml]
+[E:/Work/Jays-BackOffice/Views/ApplyMarkups/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbHlNYXJrdXBzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ApplyMarkups/Edit.cshtml]
+[E:/Work/Jays-BackOffice/Views/ApplyMarkups/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbHlNYXJrdXBzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ApplyMarkups/Index.cshtml]
+[E:/Work/Jays-BackOffice/Views/ApplyMarkups/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbHlNYXJrdXBzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/BookingInfos/Create.cshtml]
+[E:/Work/Jays-BackOffice/Views/BookingInfos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0luZm9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/BookingInfos/Delete.cshtml]
+[E:/Work/Jays-BackOffice/Views/BookingInfos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0luZm9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/BookingInfos/Details.cshtml]
+[E:/Work/Jays-BackOffice/Views/BookingInfos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0luZm9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/BookingInfos/Edit.cshtml]
+[E:/Work/Jays-BackOffice/Views/BookingInfos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0luZm9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/BookingInfos/Index.cshtml]
+[E:/Work/Jays-BackOffice/Views/BookingInfos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0luZm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/Deeplinks/Create.cshtml]
+[E:/Work/Jays-BackOffice/Views/Deeplinks/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVlcGxpbmtzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/Deeplinks/Delete.cshtml]
+[E:/Work/Jays-BackOffice/Views/Deeplinks/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVlcGxpbmtzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/Deeplinks/Details.cshtml]
+[E:/Work/Jays-BackOffice/Views/Deeplinks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVlcGxpbmtzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/Deeplinks/Edit.cshtml]
+[E:/Work/Jays-BackOffice/Views/Deeplinks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVlcGxpbmtzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/Deeplinks/Index.cshtml]
+[E:/Work/Jays-BackOffice/Views/Deeplinks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVlcGxpbmtzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/Home/Index.cshtml]
+[E:/Work/Jays-BackOffice/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/Home/Privacy.cshtml]
+[E:/Work/Jays-BackOffice/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ManualPayments/Create.cshtml]
+[E:/Work/Jays-BackOffice/Views/ManualPayments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWFsUGF5bWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ManualPayments/Delete.cshtml]
+[E:/Work/Jays-BackOffice/Views/ManualPayments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWFsUGF5bWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ManualPayments/Details.cshtml]
+[E:/Work/Jays-BackOffice/Views/ManualPayments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWFsUGF5bWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ManualPayments/Edit.cshtml]
+[E:/Work/Jays-BackOffice/Views/ManualPayments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWFsUGF5bWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/ManualPayments/Index.cshtml]
+[E:/Work/Jays-BackOffice/Views/ManualPayments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWFsUGF5bWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/Shared/Error.cshtml]
+[E:/Work/Jays-BackOffice/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Work/Jays-BackOffice/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/_ViewImports.cshtml]
+[E:/Work/Jays-BackOffice/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/_ViewStart.cshtml]
+[E:/Work/Jays-BackOffice/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zainm/OneDrive/Desktop/Jays-BackOffice/Jays-BackOffice/Views/Shared/_Layout.cshtml]
+[E:/Work/Jays-BackOffice/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zm90959w5q
