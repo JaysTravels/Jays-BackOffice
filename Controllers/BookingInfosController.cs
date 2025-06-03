@@ -1,10 +1,12 @@
 ﻿using Jays_BackOffice.Context;
 using Jays_BackOffice.DB_Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Jays_BackOffice.Controllers
 {
+    [Authorize]
     public class BookingInfosController : Controller
     {
         private readonly DB_Context _context;

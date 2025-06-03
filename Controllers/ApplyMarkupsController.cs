@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Jays_BackOffice.Models;
 using Jays_BackOffice.DB_Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Jays_BackOffice.Controllers
 {
+    [Authorize]
     public class ApplyMarkupsController : Controller
     {
         private readonly DB_Context _context;

@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Jays_BackOffice.Context;
 using Jays_BackOffice.DB_Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Jays_BackOffice.Controllers
 {
+    [Authorize]
     public class DeeplinksController : Controller
     {
         private readonly DB_Context _context;

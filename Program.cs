@@ -5,8 +5,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddAuthentication("MyCookieAuth")
+    .AddCookie("MyCookieAuth", options =>
+    {
+        options.LoginPath = "/Account/Login";
+        options.AccessDeniedPath = "/Account/AccessDenied";
+    });
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddAuthorization();
+var connectionString = Environment.GetEnvironmentVariable("DefaultConnectionJays");// builder.Configuration.GetConnectionString();
 builder.Services.AddDbContext<DB_Context>(options =>
     options.UseNpgsql(connectionString));
 builder.Services.AddHttpClient();
@@ -26,7 +33,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();    
 app.UseAuthorization();
 
 app.MapControllerRoute(
